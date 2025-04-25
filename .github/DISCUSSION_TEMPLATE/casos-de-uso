@@ -1,0 +1,91 @@
+labels: ["Use Cases"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por informar de un caso de uso.
+        
+        Esto puede ayudar a otros a imaginar cómo podrían utilizar un paquete para abordar su pregunta de investigación y tal vez proporcionarles algo de código para que puedan reutilizarlo. Compartir tu caso de uso también puede animar mucho a los desarrolladores y mantenedores, sabiendo que hay otros que aprecian y aprovechan su trabajo.
+  - type: textarea
+    id: resources
+    attributes:
+      label: Paquete o recurso rOpenSci utilizado
+      description: |
+          Por ejemplo, uno de nuestros [paquetes](https://ropensci.org/packages/), nuestra [guía de desarrollo de paquetes](https://devguide.ropensci.org/), la [Guía de contribución](https://contributing.ropensci.org/), una [Convocatoria comunitaria](https://ropensci.org/commcalls/) o un [artículo de blog](https://ropensci.org/blog/).
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: ¿Qué hiciste?
+      description: "Explique brevemente lo que hiciste, para despertar el interés de tus lectores."
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: URL o fragmento de código para su caso de uso
+      description: |
+          Enlace a una entrada de blog, un gist o un artículo académico, o proporciona algún código en línea.
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Idioma del caso práctico
+      description: |
+          ¿En qué idiomas se redactó su caso práctico? Nombre completo del idioma, en español («Inglés», «Español», etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: Imagen
+      description: |
+          Por ejemplo, una figura de un artículo o una entrada de blog si tiene permiso para compartirla.
+    validations:
+      required: false
+  - type: dropdown
+    id: sector
+    attributes:
+      label: Sector
+      options:
+        - Academico
+        - Industria
+        - Gobierno
+        - Sin ánimo de lucro
+        - Otro
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Ámbito de aplicación
+      description: |
+          Ecología, epidemiología, investigación sobre la Antártida y el Océano Austral, investigación biomédica, energía, finanzas, historia, ciencias sociales, ¡lo que sea!
+    validations:
+      required: true
+  - type: input
+    id: mastodon
+    attributes:
+      label: URL de tu perfil en Mastodon
+      description: |
+          Para posibles menciones al compartir su caso de uso en las redes sociales.
+    validations:
+      required: false
+  - type: input
+    id: bluesky
+    attributes:
+      label: URL de tu perfil en Bluesky
+      description: |
+          Para posibles menciones al compartir su caso de uso en las redes sociales.
+    validations:
+      required: false
+  - type: textarea
+    id: comment
+    attributes:
+      label: Commentario
+      description: |
+          Comentarios o solicitud de funciones.
+    validations:
+      required: false
