@@ -26,27 +26,79 @@ body:
         ...
     validations:
       required: true
-  - type: dropdown
-    id: download
+  - type: textarea
+    id: url
     attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
+      label: URL or code snippet for your use case
+      description: |
+          Link to a blog post, a gist, or an academic paper, or provide some code inline.
+      value: |
+        ...
     validations:
       required: true
-  - type: checkboxes
+  - type: input
+    id: language
     attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
-    attributes:
+      label: Language of the use case
+      description: |
+          Full name of the language, in English ("English", "Spanish", etc.)
       value: |
-        ### The thrilling conclusion
-        _to our template_
-
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: Image
+      description: |
+          For instance a figure from a paper or blog post if you have permission to share it.
+      value: |
+        ...
+    validations:
+      required: true
+  - type: dropdown
+    id: sector
+    attributes:
+      label: Sector
+      options:
+        - Academic 
+        - Industry
+        - Government
+        - Non-profit
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field of application
+      description: |
+          Ecology, epidemiology, Antarctic and Southern Ocean research, biomedical research, energy, finance, history, social sciences, anything!
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment
+      description: |
+          Feedback or feature request.
+      value: |
+        ...
+    validations:
+      required: true
+  - type: input
+    id: mastodon
+    attributes:
+      label: Mastodon profile URL
+      description: |
+          For potential mention when sharing your use case on social media.
+    validations:
+      required: false
+  - type: input
+    id: bluesky
+    attributes:
+      label: Bluesky profile URL
+      description: |
+          For potential mention when sharing your use case on social media.
+    validations:
+      required: false
