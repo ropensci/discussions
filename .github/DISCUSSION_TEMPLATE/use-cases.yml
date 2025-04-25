@@ -7,21 +7,17 @@ body:
         Thank you for reporting an use case!
         
         This can help others imagine how they might use a package to address their research question and maybe provide some code for them to re-use. Sharing your use case can also go a long way to encouraging developers and maintainers, knowing there are others who appreciate and build on their work.
-  - type: input
+  - type: textarea
     id: resources
     attributes:
       label: rOpenSci package or resource used
       description: |
-          For instance, one of our [packages](https://ropensci.org/packages/), 
-          our [package development guide](https://devguide.ropensci.org/), 
-          [Contributing Guide](https://contributing.ropensci.org/), 
-          a [Community Call](https://ropensci.org/commcalls/), 
-          or a [blog post](https://ropensci.org/blog/).
+          For instance, one of our [packages](https://ropensci.org/packages/), our [package development guide](https://devguide.ropensci.org/), [Contributing Guide](https://contributing.ropensci.org/), a [Community Call](https://ropensci.org/commcalls/), or a [blog post](https://ropensci.org/blog/).
       value: |
         ...
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: what
     attributes:
       label: What did you do?
