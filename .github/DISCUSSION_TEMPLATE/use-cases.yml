@@ -34,7 +34,7 @@ body:
     attributes:
       label: Language of the use case
       description: |
-          Full name of the language, in English ("English", "Spanish", etc.)
+          In what languages was your use case written? Full name of the language, in English ("English", "Spanish", etc.)
     validations:
       required: true
   - type: textarea
@@ -44,7 +44,7 @@ body:
       description: |
           For instance a figure from a paper or blog post if you have permission to share it.
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: sector
     attributes:
@@ -65,14 +65,6 @@ body:
           Ecology, epidemiology, Antarctic and Southern Ocean research, biomedical research, energy, finance, history, social sciences, anything!
     validations:
       required: true
-  - type: textarea
-    id: comment
-    attributes:
-      label: Comment
-      description: |
-          Feedback or feature request.
-    validations:
-      required: true
   - type: input
     id: mastodon
     attributes:
@@ -87,5 +79,13 @@ body:
       label: Bluesky profile URL
       description: |
           For potential mention when sharing your use case on social media.
+    validations:
+      required: false
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment
+      description: |
+          Feedback or feature request.
     validations:
       required: false
