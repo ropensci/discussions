@@ -13,8 +13,6 @@ body:
       label: rOpenSci package or resource used
       description: |
           For instance, one of our [packages](https://ropensci.org/packages/), our [package development guide](https://devguide.ropensci.org/), [Contributing Guide](https://contributing.ropensci.org/), a [Community Call](https://ropensci.org/commcalls/), or a [blog post](https://ropensci.org/blog/).
-      value: |
-        ...
     validations:
       required: true
   - type: textarea
@@ -22,8 +20,6 @@ body:
     attributes:
       label: What did you do?
       description: "Explain briefly what you did, to pique your readers' interest."
-      value: |
-        ...
     validations:
       required: true
   - type: textarea
@@ -32,8 +28,6 @@ body:
       label: URL or code snippet for your use case
       description: |
           Link to a blog post, a gist, or an academic paper, or provide some code inline.
-      value: |
-        ...
     validations:
       required: true
   - type: input
@@ -42,8 +36,6 @@ body:
       label: Language of the use case
       description: |
           Full name of the language, in English ("English", "Spanish", etc.)
-      value: |
-        ...
     validations:
       required: true
   - type: textarea
@@ -52,8 +44,6 @@ body:
       label: Image
       description: |
           For instance a figure from a paper or blog post if you have permission to share it.
-      value: |
-        ...
     validations:
       required: true
   - type: dropdown
@@ -82,8 +72,6 @@ body:
       label: Comment
       description: |
           Feedback or feature request.
-      value: |
-        ...
     validations:
       required: true
   - type: input
