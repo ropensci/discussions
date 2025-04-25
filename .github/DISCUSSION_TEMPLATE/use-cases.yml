@@ -22,7 +22,7 @@ body:
     validations:
       required: true
   - type: input
-    id: resources
+    id: what
     attributes:
       label: What did you do?
       description: "Explain briefly what you did, to pique your readers' interest."
