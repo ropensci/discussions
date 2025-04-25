@@ -13,7 +13,7 @@ body:
       label: rOpenSci package or resource used
       description: "_e.g. one of our [packages](https://ropensci.org/packages/), our [package development guide](https://devguide.ropensci.org/), [Contributing Guide](https://contributing.ropensci.org/), a [Community Call](https://ropensci.org/commcalls/), or a [blog post](https://ropensci.org/blog/)_"
       value: |
-        
+        ...
       render: bash
     validations:
       required: true
