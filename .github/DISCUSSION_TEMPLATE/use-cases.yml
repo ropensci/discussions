@@ -4,17 +4,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        Please use this template as a guide to share your use case for an rOpenSci package or resource. 
+        
+        This can help others imagine how they might use a package to address their research question and maybe provide some code for them to re-use. Sharing your use case can also go a long way to encouraging developers and maintainers, knowing there are others who appreciate and build on their work.
   - type: textarea
-    id: improvements
+    id: resources
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
+      label: rOpenSci package or resource used
+      description: "_e.g. one of our [packages](https://ropensci.org/packages/), our [package development guide](https://devguide.ropensci.org/), [Contributing Guide](https://contributing.ropensci.org/), a [Community Call](https://ropensci.org/commcalls/), or a [blog post](https://ropensci.org/blog/)_"
       value: |
-        1.
-        2.
-        3.
-        ...
+        
       render: bash
     validations:
       required: true
