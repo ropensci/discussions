@@ -45,6 +45,14 @@ body:
           For instance a figure from a paper or blog post if you have permission to share it.
     validations:
       required: false
+  - type: textarea
+    id: alt
+    attributes:
+      label: Alternative text
+      description: |
+          For your image.
+    validations:
+      required: false
   - type: dropdown
     id: sector
     attributes:
