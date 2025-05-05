@@ -43,6 +43,12 @@ body:
       label: Imagen
       description: |
           Por ejemplo, una figura de un artículo o una entrada de blog si tiene permiso para compartirla.
+  - type: textarea
+    id: image
+    attributes:
+      label: Texto alternativo.
+      description: |
+          Para tu imagen.
     validations:
       required: false
   - type: dropdown
