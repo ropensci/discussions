@@ -44,7 +44,7 @@ body:
       description: |
           Por ejemplo, una figura de un artículo o una entrada de blog si tiene permiso para compartirla.
   - type: textarea
-    id: image
+    id: alt
     attributes:
       label: Texto alternativo.
       description: |
