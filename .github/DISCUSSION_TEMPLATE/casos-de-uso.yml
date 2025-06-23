@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: resources
     attributes:
-      label: Paquete(s) o recurso(s) rOpenSci utilizado
+      label: Paquete(s) o recurso(s) de rOpenSci utilizado(s)
       description: |
           Por ejemplo, uno de nuestros [paquetes](https://ropensci.org/packages/), nuestra [guía de desarrollo de paquetes](https://devguide.ropensci.org/), la [Guía de contribución](https://contributing.ropensci.org/), una [Convocatoria comunitaria](https://ropensci.org/commcalls/) o un [artículo de blog](https://ropensci.org/blog/).
     validations:
