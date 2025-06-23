@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: resources
     attributes:
-      label: Paquete o recurso rOpenSci utilizado
+      label: Paquete(s) o recurso(s) de rOpenSci utilizado(s)
       description: |
           Por ejemplo, uno de nuestros [paquetes](https://ropensci.org/packages/), nuestra [guía de desarrollo de paquetes](https://devguide.ropensci.org/), la [Guía de contribución](https://contributing.ropensci.org/), una [Convocatoria comunitaria](https://ropensci.org/commcalls/) o un [artículo de blog](https://ropensci.org/blog/).
     validations:
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: url
     attributes:
-      label: URL o fragmento de código para su caso de uso
+      label: URL(s) o fragmento(s) de código para tu caso de uso
       description: |
           Enlace a una entrada de blog, un gist o un artículo académico, o proporciona algún código en línea.
     validations:
@@ -43,6 +43,7 @@ body:
       label: Imagen
       description: |
           Por ejemplo, una figura de un artículo o una entrada de blog si tiene permiso para compartirla.
+          Puedes usar "arrastrar y soltar".
   - type: textarea
     id: alt
     attributes:
