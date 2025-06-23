@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: url
     attributes:
-      label: URL(s) o fragmento(s) de código para su caso de uso
+      label: URL(s) o fragmento(s) de código para tu caso de uso
       description: |
           Enlace a una entrada de blog, un gist o un artículo académico, o proporciona algún código en línea.
     validations:
