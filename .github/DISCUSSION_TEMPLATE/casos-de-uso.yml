@@ -73,17 +73,9 @@ body:
     validations:
       required: true
   - type: input
-    id: mastodon
+    id: social
     attributes:
-      label: URL de tu perfil en Mastodon
-      description: |
-          Para posibles menciones al compartir su caso de uso en las redes sociales.
-    validations:
-      required: false
-  - type: input
-    id: bluesky
-    attributes:
-      label: URL de tu perfil en Bluesky
+      label: Enlaces a redes sociales
       description: |
           Para posibles menciones al compartir su caso de uso en las redes sociales.
     validations:
