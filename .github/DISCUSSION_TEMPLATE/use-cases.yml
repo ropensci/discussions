@@ -75,17 +75,9 @@ body:
     validations:
       required: true
   - type: input
-    id: mastodon
+    id: social
     attributes:
-      label: Mastodon profile URL
-      description: |
-          For potential mention when sharing your use case on social media.
-    validations:
-      required: false
-  - type: input
-    id: bluesky
-    attributes:
-      label: Bluesky profile URL
+      label: Social media links
       description: |
           For potential mention when sharing your use case on social media.
     validations:
